@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>関数電卓</title>
+    <link rel="stylesheet" href="./assests/css/sanitize.css">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <body>
+        <div class="calculator">
+            <input type="text" class="calculator-screen" value="" disabled />
+            <div class="calculator-keys">
+                <div class="number-keys">
+                    <button type="button" value="7">7</button>
+                    <button type="button" value="8">8</button>
+                    <button type="button" value="9">9</button>
+                    <button type="button" value="4">4</button>
+                    <button type="button" value="5">5</button>
+                    <button type="button" value="6">6</button>
+                    <button type="button" value="1">1</button>
+                    <button type="button" value="2">2</button>
+                    <button type="button" value="3">3</button>
+                    <button type="button" value="0">0</button>
+                    <button type="button" class="decimal" value=".">.</button>
+                    <button type="button" class="all-clear" value="all-clear">AC</button>
+                </div>
+                <div class="basic-operator-keys">
+                    <button type="button" class="operator" value="+">+</button>
+                    <button type="button" class="operator" value="-">-</button>
+                    <button type="button" class="operator" value="*">&times;</button>
+                    <button type="button" class="operator" value="/">&divide;</button>
+                    <button type="button" class="equal-sign" value="=">=</button>
+                </div>
+                <div class="function-keys">
+                    <button type="button" class="function" value="sin">sin</button>
+                    <button type="button" class="function" value="cos">cos</button>
+                    <button type="button" class="function" value="tan">tan</button>
+                    <button type="button" class="function" value="log">log</button>
+                    <button type="button" class="function" value="sqrt">√</button>
+                    <button type="button" class="function" value="pow">^</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.0.0/math.min.js"></script>
+        <script src="./assests/js/app.js"></script>
+    </body>
+    </html>
